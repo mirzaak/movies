@@ -21,10 +21,20 @@
     </div>
   </div>
   <router-view/>
+<Popular />
+<Nowplaying />
+<Toprated />
+<Upcoming />
 </template>
 
 <script>
+import Popular from './movie/Popular.vue'
+import Nowplaying from './movie/Nowplaying.vue'
+import Toprated from './movie/Toprated.vue'
+import Upcoming from  './movie/Upcoming.vue'
+
 export default{
+  components:{ Popular, Nowplaying, Toprated, Upcoming},
 data(){
   return{
     
@@ -94,5 +104,11 @@ body{
 .dropdown:hover .moviesdropdown{
   display: block;
 }
-
+.kutija{
+  background: gray;
+  width: 1400px;
+  height: 389px;
+  margin: 60px auto;
+  
+}
 </style>
