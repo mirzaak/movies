@@ -11,7 +11,7 @@
             <li>Top rated</li>
           </ul>
       </div>
-        <a href="#" class="naslovi">TV Shows</a>
+        <router-link :to="{name:'TVShows'}" class="naslovi">TV Shows</router-link>
         <a href="#" class="naslovi">People</a>
     </div>
     <div class="desno">
@@ -21,20 +21,14 @@
     </div>
   </div>
   <router-view/>
-<Popular />
-<Nowplaying />
-<Toprated />
-<Upcoming />
+
 </template>
 
 <script>
-import Popular from './movie/Popular.vue'
-import Nowplaying from './movie/Nowplaying.vue'
-import Toprated from './movie/Toprated.vue'
-import Upcoming from  './movie/Upcoming.vue'
+
 
 export default{
-  components:{ Popular, Nowplaying, Toprated, Upcoming},
+  components:{},
 data(){
   return{
     
