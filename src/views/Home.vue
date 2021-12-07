@@ -13,11 +13,5 @@ export default {
 </script>
 
 <style>
-.kutija{
-  background: gray;
-  width: 1400px;
-  height: 389px;
-  margin: 60px auto;
-  
-}
+
 </style>

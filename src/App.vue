@@ -56,6 +56,8 @@ methods:{
 }
 body{
   margin: 0;
+  
+  
 }
 .nav{
   background:#0d253f;
@@ -105,10 +107,13 @@ body{
   display: block;
 }
 .kutija{
-  background: gray;
+  display: flex;
+  flex-direction: column;
   width: 1400px;
   height: 389px;
-  margin: 60px auto;
+  border: 1px solid black;
+  margin: 112px auto;
+  overflow:hidden;
   
 }
 </style>
