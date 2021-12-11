@@ -25,5 +25,37 @@ methods:{
 </script>
 
 <style>
-
+.top{
+  background: #90cea1;
+}
+h3{
+  color:white;
+  
+}
+.okvir{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 0;
+  margin: 0;
+  background: white;
+  overflow: hidden;
+  height: 40px;
+  align-self: center;
+  margin-left: 30px;
+}
+.crno{
+  background: black;
+  
+  
+  
+  
+}
+.bijelo{
+  background: green;
+  
+ 
+}
 </style>

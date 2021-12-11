@@ -1,12 +1,13 @@
 <template>
   <div class="kutija">
       <div class="top">
+        <h3>Top Rated</h3>
         <div class="okvir">
           <div class="crno">
-            Movies
+            <h3>Movies</h3>
           </div>
           <div class="bijelo">
-            TV Shows
+            <h3>TV Shows</h3>
           </div>
         </div>
       </div>
@@ -47,15 +48,14 @@ mounted(){
 
 <style scoped>
 .top{
-height: 10%;
-background: red;
+height: 20%;
 display: flex;
 flex-direction: row;
+
 }
 .main{
-background: gray;
 display: flex;
-height: 90%;
+height: 80%;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
@@ -79,11 +79,9 @@ white-space: initial;
 .datumkartice{
 font-size: 15px;
 }
-.okvir{
-  
-  width: 100px;
-  height:20px;
-  background: white;
 
+h3{
+  align-self: center;
+  
 }
 </style>

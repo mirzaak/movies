@@ -3,12 +3,12 @@
     <div class="lijevo">
       <router-link to="/"><img src="./assets/logo.svg" alt="logo" class="logo"></router-link>
       <div class="dropdown">
-        <a href="#" class="naslovi" id="movies">Movies</a>
+        <router-link to="/" class="naslovi" id="movies">Movies</router-link>
           <ul class="moviesdropdown">
-            <li>Popular</li>
-            <li>Now playing</li>
-            <li>Upcoming</li>
-            <li>Top rated</li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Now playing</a></li>
+            <li><a href="">Upcoming</a></li>
+            <li><a href="">Top rated</a></li>
           </ul>
       </div>
         <router-link :to="{name:'TVShows'}" class="naslovi">TV Shows</router-link>
@@ -16,7 +16,7 @@
     </div>
     <div class="desno">
         <a href="#" class="naslovi">Login</a>
-        <a href="#" class="naslovi">Sign Up</a>
+        <router-link to="/Signup" class="naslovi">Sign Up</router-link>
         <a href="#" class="naslovi">Search</a>
     </div>
   </div>
@@ -25,12 +25,13 @@
 </template>
 
 <script>
-
+import axios from 'axios'
 
 export default{
   components:{},
 data(){
   return{
+    
     
   }
 },

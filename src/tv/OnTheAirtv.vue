@@ -47,15 +47,13 @@ mounted(){
 
 <style scoped>
 .top{
-height: 10%;
-background: red;
+height: 20%;
 display: flex;
 flex-direction: row;
 }
 .main{
-background: gray;
 display: flex;
-height: 90%;
+height: 80%;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
@@ -79,11 +77,9 @@ white-space: initial;
 .datumkartice{
 font-size: 15px;
 }
-.okvir{
-  
-  width: 100px;
-  height:20px;
-  background: white;
 
+h3{
+  align-self: center;
+  
 }
 </style>
