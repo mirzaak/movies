@@ -59,7 +59,8 @@ export default{
                 const res =axios.post(baseURL,{username: this.korisnik,password:this.sifra,email:this.email});
                 this.users = [...this.users,res.data];
             alert('Submited')
-            window.open('/')}
+            this.$router.push('/')
+            }
             else{
                 alert('Form not subbmited')
             }
